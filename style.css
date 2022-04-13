@@ -275,7 +275,8 @@ label {
   margin-top: 10px;
 }
 
-.form input {
+.form input,
+select {
   width: 400px;
   padding: 15px 5px;
   border-radius: 10px;
@@ -351,6 +352,62 @@ label {
   border: none;
   border-radius: 10px;
   width: 400px;
+  padding: 15px 0;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+/* Create Account */
+
+.account-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+}
+
+.form {
+  justify-self: center;
+  position: relative;
+  left: 50%;
+}
+
+.form input {
+  width: 420px;
+}
+
+.firstLast input,
+.tele-Delivery input,
+select {
+  width: 200px;
+}
+
+.firstLast,
+.tele-Delivery {
+  display: flex;
+}
+
+.rg {
+  margin-right: 20px;
+}
+
+.firstLast input {
+  margin: 0 20;
+}
+
+.account-wrapper label {
+  display: block;
+}
+
+select option {
+  padding: 50px;
+}
+
+.createacct-btn {
+  background-color: #3e4095;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 420px;
   padding: 15px 0;
   cursor: pointer;
   margin: 10px 0;
